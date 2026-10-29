@@ -2,23 +2,33 @@
 
 ## Project Description
 
-This is an ASP.NET course Razor Pages application for demonstrating authentication and authorization.
-
-## Features
-
-- User login
-- Cookie-based authentication
-- Protected admin page
-- User logout
-- User data stored in JSON
-
-## How to Run
-
-
+This is an ASP.NET Razor Pages application demonstrating authentication/authorization using cookies.
 
 ## Login Credentials
 
-Login credentials will be added after the application is completed.
+Username: `admin`
+
+Password: `Password123`
+
+## How to Run
+
+1. Open the project in Visual Studio.
+2. Run the application.
+3. Navigate to the Login page (using your localhost).
+4. Enter the username and password.
+5. After a successful login, the admin page is shown.
+6. Use the Logout link to sign out.
 
 ## Screenshots
 
+### Login Form
+
+![Login form](screenshots/login-form.png)
+
+### Invalid Login
+
+![Invalid login](screenshots/error-for-invalid-data.png)
+
+### Admin Page
+
+![Admin page](screenshots/admin-page.png)
